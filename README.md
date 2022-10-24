@@ -3,7 +3,7 @@
 ![README02](img/README02.png)
 
 Start deck.gl easily.  
-- [deck.gl v8.8.14](https://maplibre.org)  
+- [deck.gl v8.8.14](https://deck.gl)  
 - [TypeScript v4.8.4](https://www.typescriptlang.org)
 - [Vite v3.1.8](https://vitejs.dev)  
 - node v18.1.0
@@ -65,7 +65,7 @@ Copyright (c) 2022 Yasunori Kirimoto
 ![README02](img/README02.png)
 
 deck.glを手軽に始める
-- [deck.gl v8.8.14](https://maplibre.org)  
+- [deck.gl v8.8.14](https://deck.gl)  
 - [TypeScript v4.8.4](https://www.typescriptlang.org)
 - [Vite v3.1.8](https://vitejs.dev)  
 - node v18.1.0
