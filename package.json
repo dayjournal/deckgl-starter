@@ -1,0 +1,21 @@
+{
+  "name": "deckgl-starter",
+  "version": "8.8.14",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "Yasunori Kirimoto",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8"
+  },
+  "dependencies": {
+    "@danmarshall/deckgl-typings": "^4.9.27",
+    "deck.gl": "^8.8.14"
+  }
+}
