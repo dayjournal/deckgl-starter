@@ -3,11 +3,11 @@
 ![README02](img/README02.png)
 
 Start deck.gl easily.  
-- [deck.gl v8.9.13](https://deck.gl)  
-- [TypeScript v5.0.4](https://www.typescriptlang.org)
-- [Vite v4.3.5](https://vitejs.dev)  
+- [deck.gl v8.9.20](https://deck.gl)  
+- [TypeScript v5.1.6](https://www.typescriptlang.org)  
+- [Vite v4.4.1](https://vitejs.dev)  
 - node v18.1.0
-- npm v8.8.0
+- npm v8.19.2
 
 <br>
 
@@ -65,11 +65,12 @@ Copyright (c) 2022-2023 Yasunori Kirimoto
 ![README02](img/README02.png)
 
 deck.glを手軽に始める
-- [deck.gl v8.9.13](https://deck.gl)  
-- [TypeScript v5.0.4](https://www.typescriptlang.org)
-- [Vite v4.3.5](https://vitejs.dev)  
+- [deck.gl v8.9.20](https://deck.gl)  
+- [TypeScript v5.1.6](https://www.typescriptlang.org)  
+- [Vite v4.4.1](https://vitejs.dev)  
 - node v18.1.0
-- npm v8.8.0
+- npm v8.19.2
+
 <br>
 
 ##  使用方法
