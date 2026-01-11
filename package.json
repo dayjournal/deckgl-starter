@@ -1,6 +1,6 @@
 {
   "name": "deckgl-starter",
-  "version": "8.9.34",
+  "version": "9.2.5",
   "description": "",
   "scripts": {
     "dev": "vite",
@@ -9,13 +9,12 @@
   },
   "keywords": [],
   "author": "Yasunori Kirimoto",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "vite": "^5.1.1"
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
   },
   "dependencies": {
-    "@danmarshall/deckgl-typings": "^4.9.28",
-    "deck.gl": "^8.9.34"
+    "deck.gl": "^9.2.5"
   }
 }

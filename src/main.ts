@@ -13,20 +13,18 @@ new Deck({
   initialViewState: INITIAL_VIEW_STATE,
   controller: true,
   layers: [
-        new TileLayer({
-          data: 'https://tile.mierune.co.jp/mierune_mono/{z}/{x}/{y}.png',
-          minZoom: 0,
-          maxZoom: 18,
-          renderSubLayers: props => {
-            const {
-              bbox: {west, south, east, north}
-            } = props.tile;
-            return new BitmapLayer(props, {
-              data: null,
-              image: props.data,
-              bounds: [west, south, east, north]
-            });
-          }
-        })
+    new TileLayer({
+      data: 'https://tile.mierune.co.jp/mierune_mono/{z}/{x}/{y}.png',
+      minZoom: 0,
+      maxZoom: 18,
+      renderSubLayers: props => {
+        const {boundingBox} = props.tile;
+        return new BitmapLayer(props, {
+          data: undefined,
+          image: props.data,
+          bounds: [boundingBox[0][0], boundingBox[0][1], boundingBox[1][0], boundingBox[1][1]]
+        });
+      }
+    })
   ]
 });
